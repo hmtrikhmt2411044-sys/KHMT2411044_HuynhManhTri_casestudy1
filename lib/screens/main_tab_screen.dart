@@ -1,3 +1,4 @@
+﻿// Buoi 4: Chia component cac tabs va giao dien
 import 'package:flutter/material.dart';
 import 'tabs/home_tab.dart';
 import 'tabs/transaction_tab.dart';
@@ -66,11 +67,11 @@ class _MainTabScreenState extends State<MainTabScreen> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                _buildNavItem(Icons.home_outlined, Icons.home, 'Trang chủ', 0),
-                _buildNavItem(Icons.receipt_long_outlined, Icons.receipt_long, 'Giao dịch', 1),
+                _buildNavItem(Icons.home_outlined, Icons.home, 'Trang chá»§', 0),
+                _buildNavItem(Icons.receipt_long_outlined, Icons.receipt_long, 'Giao dá»‹ch', 1),
                 const SizedBox(width: 48),
-                _buildNavItem(Icons.bar_chart_outlined, Icons.bar_chart, 'Thống kê', 2),
-                _buildNavItem(Icons.person_outline, Icons.person, 'Cá nhân', 3),
+                _buildNavItem(Icons.bar_chart_outlined, Icons.bar_chart, 'Thá»‘ng kĂª', 2),
+                _buildNavItem(Icons.person_outline, Icons.person, 'CĂ¡ nhĂ¢n', 3),
               ],
             ),
           ),
